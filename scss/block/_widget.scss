@@ -1,0 +1,268 @@
+ 
+
+ .widget-block{ 
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+  
+ } 
+ .widget-title{ 
+  width: 100%;
+  max-width: 1028px;
+ margin: 0 auto; 
+ margin-bottom: 20px;    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ } 
+ .widget-img{ 
+    display: block;
+    margin: 0 auto;
+     margin-bottom: 30px;
+    width: 100%; 
+    max-width: 1028px;
+    height: 454px;
+
+ } 
+ .widget-subtitle{ 
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 1028px;
+ } 
+ .widget-text{ 
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+/* or 158% */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ }
+ 
+//------------------------------------------------------------------------ 
+
+ .widget__inner-title{  
+    width: 100%; 
+    max-width: 1028px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ } 
+
+ .widget__inner-img{  
+   display:block;
+  width: 100%;
+  max-width: 1028px;  
+   margin: 0 auto;
+   margin-bottom: 30px; 
+ 
+
+ } 
+
+ .widget__inner-text-block{ 
+
+   width: 100%; 
+   max-width: 1028px; 
+   margin: 0 auto;  
+   margin-bottom: 100px;
+
+ } 
+
+ .widget__inner__text{ 
+
+   margin: 0 auto;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+/* or 158% */
+color: #000000;
+ } 
+
+ .widget__inner__text-activ{ 
+  
+padding: 56px 40px 66px 40px; 
+background: #F5F7F9;
+border-radius: 24px; 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 146%;
+/* or 146% */
+/* Color/Reiwa/Primary red */
+color: #D10700;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+ } 
+
+
+ //--------------------------------------------------------------------------------------------
+
+.widget-meta{ 
+
+   width: 100%; 
+   max-width: 1028px; 
+   margin: 0 auto;
+} 
+.widget__meta-title{ 
+
+   width: 100%; 
+   max-width: 464px; 
+   margin: 0;
+   margin-bottom: 20px;
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+} 
+.widget__meta-img{ 
+
+   width: 100%; 
+   max-width: 1028px; 
+   height: auto;
+   max-height: 454px;
+  margin-bottom: 30px;
+} 
+.widget__meta-text{ 
+
+width: 100%;
+max-width: 1028px; 
+margin-bottom: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+/* or 158% */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}  
+.widget__meta__list-block{ 
+
+   width: 100%; 
+   max-width: 1028px;
+   padding-left: 30px;
+}
+.widget__meta-list{ 
+
+   width: 100%; 
+
+} 
+.widget__meta-item{ 
+margin-bottom: 40px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 142%;
+/* identical to box height, or 142% */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+} 
+
+@media only screen and(max-width:1080px){ 
+
+   .widget-block{ 
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 100px;
+    
+   } 
+   
+   .widget-img{ 
+    
+      max-width: 100%;
+      height: auto;
+  
+   } 
+   
+} 
+
+@media only screen and(max-width:600px){ 
+
+   .widget-title{ 
+
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+   } 
+   .widget-text{ 
+
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+   } 
+   .widget__inner-title{ 
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+
+   } 
+   .widget__inner__text{ 
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+   } 
+   .widget__meta-title{ 
+
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+   } 
+   .widget__meta-list{ 
+
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+   } 
+   .widget__meta-text{ 
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+
+   }
+}

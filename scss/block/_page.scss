@@ -1,0 +1,215 @@
+.site-page{ 
+
+   width: 100%; 
+   max-width: 1380px;
+   margin: 0 auto;
+} 
+
+ .page-bolck{ 
+
+    display: flex;
+    justify-content: space-between;  
+    background: #F5F7F9;
+    border-radius: 30px; 
+    padding: 67px 70px; 
+    margin-bottom: 30px;
+ } 
+ 
+ .page-subtitle{ 
+width: 100%; 
+max-width: 630px; 
+margin-bottom: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ }  
+ .page-title-block{ 
+
+    width: 100%; 
+    max-width: 581px; 
+ }
+ .page-text{ 
+
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 156%;
+/* or 156% */
+color: #000000;
+opacity: 0.6;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+ } 
+
+ .page-form{ 
+
+    width: 100%;
+    max-width: 520px;
+ } 
+ .page-input-name{ 
+
+width: 100%;  
+display: inline-block; 
+margin-bottom: 10px; 
+padding: 20px 0px 20px 20px; 
+border: none; 
+background: #FFFFFF;
+border-radius: 15px;
+ outline: none; 
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+color: #000000;
+
+
+ } 
+ .page-input-phon{ 
+    width: 100%; 
+    max-width: 250px;
+    padding: 20px 0px 20px 20px;  
+    margin-right: 10px;
+    border: none; 
+    background: #FFFFFF;
+    border-radius: 15px;
+     outline: none;  
+     font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+color: #000000;
+
+ } 
+ .page-input-gml{ 
+
+    width: 100%; 
+    max-width: 255px;
+    padding: 20px 0px 20px 20px; 
+    border: none; 
+    background: #FFFFFF;
+    border-radius: 15px;
+     outline: none;  
+     margin-bottom: 45px; 
+     font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+color: #000000;
+
+ } 
+ .page-butten{  
+    
+   width: 100%;
+    padding: 24px 0; 
+    text-align: center; 
+    font-family: 'Montserrat'; 
+    background: #D10700;
+    border-radius: 15px; 
+    border: none;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 24px;
+/* identical to box height, or 109% */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ } 
+ @media only screen and(max-width:1232px){ 
+
+   
+   
+    .page-bolck{ 
+   
+       display: flex;
+      flex-direction: column; 
+     
+    }  
+    .page-title{ 
+
+      width: 100%; 
+      margin: 0 auto;
+    }  
+    .page-subtitle{ 
+      max-width: 100%; 
+     text-align: center; 
+     margin-bottom: 30px;
+     
+    } 
+    .page-title-block{ 
+
+      max-width: 100%; 
+      text-align: center; 
+      margin-bottom: 50px;
+    }
+    .page-form{ 
+
+     max-width: 100%;
+      margin:  0 auto; 
+
+    } 
+    
+   
+   .page-input-phon{ 
+  
+    max-width: 100%; 
+    margin-bottom: 10px;
+  
+   } 
+   .page-input-gml{ 
+  
+    
+    max-width: 100%;
+  
+   } 
+   
+    
+
+ } 
+ @media only screen and(max-width:600px){ 
+
+   .page-input-name{ 
+
+      font-weight: 500;
+     font-size: 26px;
+     line-height: 32px;
+   } 
+   .page-input-phon{ 
+
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 32px;
+   } 
+   .page-input-gml{ 
+
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 32px;
+   } 
+   .page-butten{ 
+
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 32px; 
+   }
+ }

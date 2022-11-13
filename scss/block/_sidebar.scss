@@ -1,0 +1,216 @@
+
+  
+  .sidebar-title{  
+ margin: 0 auto;   
+ margin-bottom: 40px; 
+ width: 100%;
+ max-width: 899px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 66px;
+/* identical to box height */
+text-align: center;
+/* Dark Text */
+color: #222222;
+ } 
+
+ .sidebar-list{ 
+
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+   list-style: none; 
+   padding: 0; 
+   margin: 0;  
+   margin-bottom: 100px;
+
+ } 
+ .sidebar__list-item{ 
+    
+   
+    width: 100%; 
+    max-width: 605px;  
+    object-fit: cover;
+    padding: 30px;  
+    margin-bottom: 30px;
+    border-radius: 40px; 
+    background-image: url("../../images/imges-orginal/bg-img1x.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-position: center; 
+    &:nth-child(2){ 
+
+        background-image: url("../../images/imges-orginal/bg-img2x.png");  
+    }  
+   
+ } 
+ .sidebar__list__item-span{ 
+
+    display: inline-block; 
+    width: 100%; 
+    max-width: 243px; 
+    padding: 15px 25px;  
+    margin-bottom: 20px;
+    background-color: #6B7F74; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0; 
+backdrop-filter: blur(32px);
+border-radius: 125px;
+ } 
+ .sidebar__list__item-title{  
+    width: 100%; 
+    max-width: 447px;
+ margin: 0; 
+ margin-bottom: 268px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 110%;
+/* or 110% */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+ }  
+ .sidebar__list-block{ 
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+ }
+ .sidebar__list__item-link-activ{ 
+   
+    display: inline-block; 
+    width: 48%;  
+    padding: 28px 33px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 42px; 
+    font-family: 'Montserrat'; 
+    text-decoration: none; 
+    text-align: center;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF; 
+
+&:hover{ 
+    background: #FFFFFF;
+    color: #000000;
+    transition: 0.5s;
+}
+ } 
+ .sidebar__list__item-link{  
+    text-decoration: none;
+    display: inline-block; 
+    width: 48%;  
+    padding: 28px 33px; 
+    background: #FFFFFF; 
+    border-radius: 42px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center; 
+    &:hover{ 
+        color: #FFFFFF; 
+        background-color: transparent; 
+        border: 1.5px solid #FFFFFF; 
+        transition: 0.5s;
+    }
+ } 
+
+ @media only screen and (max-width:1252px){ 
+
+  
+     
+      .sidebar-list{ 
+     
+        flex-direction: column; 
+        margin: 0 auto;
+     
+      } 
+      .sidebar__list-item{ 
+         
+        
+          
+         margin: 0 auto;  
+         margin-bottom: 30px;
+        
+        
+      } 
+      
+
+ } 
+ @media only screen and (max-width:650px){ 
+
+   .sidebar-title{  
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 34px;
+      } 
+     
+     
+      .sidebar__list-item{ 
+         
+        
+        text-align: center; 
+        margin-bottom: 30px; 
+        object-fit: cover;
+        
+      } 
+      .sidebar__list__item-span{ 
+     
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 17px;
+      } 
+      .sidebar__list__item-title{  
+         width: 100%; 
+         max-width: 447px;
+      margin: 0 auto; 
+      margin-bottom: 268px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      }  
+      .sidebar__list-block{ 
+         display: flex;  
+         flex-direction: column;
+      }
+      .sidebar__list__item-link-activ{ 
+        
+         display: inline-block; 
+         width: 100%;  
+         padding: 18px 23px;
+         font-weight: 500;
+         font-size: 22px;
+         line-height: 27px;  
+         margin-bottom: 20px;
+     
+    
+      } 
+      .sidebar__list__item-link{  
+         width: 100%;  
+         padding: 18px 23px;  
+         font-weight: 500;
+         font-size: 22px;
+         line-height: 27px;
+        
+       
+      } 
+ }

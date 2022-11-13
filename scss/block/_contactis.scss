@@ -1,0 +1,231 @@
+ 
+ .contactis-title{ 
+
+    text-align: center; 
+    margin: 0; 
+    margin-bottom: 40px; 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 66px;
+/* identical to box height */
+/* Dark Text */
+color: #222222;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ } 
+
+ .contactis-list{ 
+
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;  
+    margin-bottom: 100px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+   
+
+ } 
+ .contactis__list-item{ 
+
+    width: 100%; 
+   max-width: 288px;  
+   padding: 20px;
+   border-radius: 24px; 
+  
+ }  
+ .carusel-img-val{ 
+
+   background-image: url("../../images/imges-orginal/car-img1-1x.png"); 
+   background-repeat: no-repeat; 
+   background-position: center; 
+   background-size: 100%; 
+ } 
+
+ .carusel-img-el{ 
+
+   background-image: url("../../images/imges-orginal/car-img2-1x.png"); 
+   background-repeat: no-repeat; 
+   background-position: center; 
+   background-size: 100%; 
+ } 
+ .carusel-img-tex{ 
+
+   background-image: url("../../images/imges-orginal/car-img3-1x.png"); 
+   background-repeat: no-repeat; 
+   background-position: center; 
+   background-size: 100%; 
+ } 
+ .carusel-img-nam{ 
+   background-image: url("../../images/imges-orginal/car-img4-1x.png"); 
+   background-repeat: no-repeat; 
+   background-position: center; 
+   background-size: 100%;
+
+ } 
+ .carusel-img-tit{ 
+   background-image: url("../../images/imges-orginal/car-img2-1x.png"); 
+   background-repeat: no-repeat; 
+   background-position: center; 
+   background-size: 100%;
+
+ } 
+
+
+ .contactis__item-link{ 
+
+    display: inline-block; 
+    text-decoration: none; 
+    
+ } 
+ .contactis__item__link-img{ 
+
+    width:27px ; 
+    height: 30px;
+    margin-right: 5px;
+ } 
+ .contactis__item-text-link{ 
+
+    text-decoration: none; 
+    display: inline-block; 
+
+ } 
+ .contactis__item-text{ 
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+color: #FFFFFF;
+ } 
+ .contactis__item-subtitle{ 
+
+    margin: 0; 
+    margin-top: 275px; 
+    margin-bottom: 13px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 100%;
+/* or 100% */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ } 
+ .contactis__item-span{ 
+    display: block; 
+    width: 40px; 
+    height: 2px;
+    background-color: #FFFFFF;  
+    margin-bottom: 5px;
+ } 
+ .cotactis__item-strong{ 
+ display: inline-block;
+width: 195px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+ } 
+
+ //---------------------------------------------------------------------------------------------------- 
+
+ .contactis-inner{  
+width: 100%; 
+max-width: 604px;
+margin: auto; 
+margin-bottom: 40px; 
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 104%;
+/* or 104% */
+/* Dark Text */
+color: #222222;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ }  
+ .contactis__inner-block{ 
+   
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+   margin-bottom: 70px; 
+   gap: 30px;
+
+ }
+ .contactis__inner-img{
+    
+    width: 393px; 
+    height: 515px; 
+   
+    
+ } 
+
+ .contactis-link{ 
+
+    text-align: center; 
+    margin-bottom: 100px;
+ } 
+ .contactis__link-activ{ 
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-decoration-line: underline;
+/* Color/Reiwa/Primary red */
+color: #D10700;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ } 
+
+ @media only screen and(max-width:856px){ 
+     
+  
+   .contactis-inner{ 
+   
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+
+   }
+   
+   .contactis-picture-img{ 
+
+      width: 100%; 
+      margin: 0 auto;
+   } 
+   .contactis__inner-img{ 
+
+      width: 100%; 
+      height: auto; 
+     
+   } 
+   .contactis-link{ 
+
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+   }
+
+ } 
